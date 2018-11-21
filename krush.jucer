@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="LUUdFV" name="krush" projectType="guiapp" jucerVersion="5.3.2"
+              cppLanguageStandard="latest">
+  <MAINGROUP id="kjhu6a" name="krush">
+    <GROUP id="{C851565E-8F2F-AED9-3578-2417A4029018}" name="Source">
+      <FILE id="QZbcti" name="KrushTransportInfo.cpp" compile="1" resource="0"
+            file="Source/KrushTransportInfo.cpp"/>
+      <FILE id="r1jgr4" name="KrushTransportInfo.h" compile="0" resource="0"
+            file="Source/KrushTransportInfo.h"/>
+      <FILE id="SNFbdG" name="KrushSync.cpp" compile="1" resource="0" file="Source/KrushSync.cpp"/>
+      <FILE id="kx1tQb" name="KrushSync.h" compile="0" resource="0" file="Source/KrushSync.h"/>
+      <FILE id="lvxqQ4" name="KrushMain.cpp" compile="1" resource="0" file="Source/KrushMain.cpp"/>
+      <FILE id="TUrt7i" name="KrushMain.h" compile="0" resource="0" file="Source/KrushMain.h"/>
+      <FILE id="neDuZC" name="KrushPadComponent.cpp" compile="1" resource="0"
+            file="Source/KrushPadComponent.cpp"/>
+      <FILE id="IweKIa" name="KrushPadComponent.h" compile="0" resource="0"
+            file="Source/KrushPadComponent.h"/>
+      <FILE id="MSg1dJ" name="KrushSampler.cpp" compile="1" resource="0"
+            file="Source/KrushSampler.cpp"/>
+      <FILE id="G4xg1u" name="KrushSampler.h" compile="0" resource="0" file="Source/KrushSampler.h"/>
+      <FILE id="DKywrA" name="krush.h" compile="0" resource="0" file="Source/krush.h"/>
+      <FILE id="jJpEtB" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="neHtUU" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="WGzJiL" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../ctrlr/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../ctrlr/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../ctrlr/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_XCURSOR="0" JUCE_USE_XRENDER="0"
+               JUCE_USE_XSHM="0" JUCE_ENABLE_REPAINT_DEBUGGING="0" JUCE_ENABLE_LIVE_CONSTANT_EDITOR="0"
+               JUCE_WEB_BROWSER="0"/>
+</JUCERPROJECT>
